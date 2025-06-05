@@ -55,7 +55,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="https://images.unsplash.com/photo-1586441133374-ed1db8e8bac9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Himalayan landscape" className="w-full h-96 object-cover" />
+              <img src="https://unsplash.com/photos/person-in-orange-jacket-standing-on-brown-rock-near-snow-covered-mountain-during-daytime-L6jxljMeUoo" alt="Himalayan landscape" className="w-full h-96 object-cover" />
             </div>
             <div>
               <h2 className="font-serif text-3xl font-light mb-6">
@@ -73,8 +73,11 @@ const Home = () => {
                 {brandStory.heritage.paternalHeritage}
               </p>
               <Link to="/about" className="inline-flex items-center font-medium text-stone-900 hover:text-stone-600 transition">
-                Discover our story <ArrowRightIcon size={16} className="ml-2" />
+                Discover our story
+                <ArrowRightIcon size={16} className="ml-2" />
               </Link>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PsBdqAWNgwE?si=LQv-QC7My0NV8CvC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -95,7 +98,7 @@ const Home = () => {
               </button>
             </div>
             <div className="flex">
-              <input type="tel" placeholder="WhatsApp number (optional)" className="flex-grow px-4 py-3 text-stone-900 focus:outline-none" />
+              <input type="tel" placeholder="WhatsApp number" className="flex-grow px-4 py-3 text-stone-900 focus:outline-none" />
             </div>
             <p className="text-xs text-stone-400 text-left">
               By subscribing, you agree to receive marketing communications from
